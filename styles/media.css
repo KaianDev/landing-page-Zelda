@@ -1,0 +1,24 @@
+@media screen and (max-width: 760px) {
+    .cabecalho {
+       flex-direction: column;      
+    }
+    .principal {
+        flex-direction: column;
+    }
+
+    .principal-logo {
+        max-width: 150px;
+    }
+
+    .principal-link {
+        max-width: 150px;
+    }
+
+    .switch > img {
+        max-width: 150px;
+    }
+
+    .eshop img {
+        max-width: 150px;
+    }
+}

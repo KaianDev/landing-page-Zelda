@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Medula+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #222222, #141414);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.cabecalho-logo {
+    max-width: 100px;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    list-style: none;
+    font-size: 2em;
+    font-weight: 100;
+    padding: 10px;
+    font-family: 'Medula One', cursive;
+    color: #e0e6e7;
+}
+.cabecalho-menu-item:hover {
+    color: #BFA26B;
+    transition: 0.3s;
+}
+
+.item-pagina-oficial {
+    border: 1px solid #e0e6e7;
+    border-radius: 10px;
+}
+
+.item-pagina-oficial:hover {
+    border: 1px solid #BFA26B;
+    background-color: #BFA26B;
+    color: #222222;
+}
+
+.principal {
+    border-top: 0.3px solid #BFA26B;
+    background-color: #222222;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.principal-logo {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.principal-titulo {
+    font-family: 'Medula One', cursive;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    color: #8499D9;
+    letter-spacing: 1.5px;
+    line-height: 10px;
+}
+
+
+.principal-paragrafo {
+    font-family: 'Libre Baskerville', serif;
+    max-width: 400px;
+    text-align: justify;
+    
+}
+
+.principal-link {
+    max-width: 400px;
+    margin-top: 20px;
+}
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin-top: 50px;
+    border-top: 0.3px solid #BFA26B;
+    background-image: linear-gradient(to bottom, #141414, #222222);
+}
+
+.rodape h2 {
+    font-family: 'Medula One', cursive;
+    font-weight: 100;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #BFA26B;
+    margin-top: 30px;
+}
+
+.switch, .eshop {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
