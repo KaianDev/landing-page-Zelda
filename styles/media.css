@@ -1,6 +1,7 @@
 @media screen and (max-width: 760px) {
     .cabecalho {
-       flex-direction: column;      
+       flex-direction: column;     
+       row-gap: 25px; 
     }
     .principal {
         flex-direction: column;
